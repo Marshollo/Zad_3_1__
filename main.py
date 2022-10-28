@@ -11,7 +11,10 @@ while True:
 dodawanie = num1 + num2
 odejmowanie = num1 - num2
 mnozenie = num1 * num2
-dzielenie = num1 / num2
+if num2 != 0:
+    dzielenie = num1 / num2
+else:
+    dzielenie = "Nie dzielimy przez zero"
 
 while True:
     znak = (input("Podaj znak operacji: + , - , * , /\n"))
