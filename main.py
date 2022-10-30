@@ -1,4 +1,5 @@
 # kalkulator
+def zad_3_1():
 
 while True:
     try:
@@ -33,3 +34,5 @@ while True:
         break
     else:
         print('\nZły znak operacji.')
+
+
