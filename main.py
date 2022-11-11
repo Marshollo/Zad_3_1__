@@ -1,5 +1,4 @@
 import math
-import numpy as np
 
 
 def zad_3_1():
@@ -106,9 +105,10 @@ def lambd():
 
 
 def pearson():
-    a = np.array([3, 2, 1, 0, -1])
-    b = np.array([5, 2, 4, -2, 1])
-    wyn = np.corrcoef(a, b)
+    import numpy as gg
+    a = gg.array([3, 2, 1, 0, -1])
+    b = gg.array([5, 2, 4, -2, 1])
+    wyn = gg.corrcoef(a, b)
 
     print(wyn)
 
